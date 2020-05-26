@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<name>Living Hinge</name>
+	<id>org.inkscape.color.living_hinge</id>
+	
+<label indent="1" appearance="header" xml:space="preserve">
+Living Hinge
+</label>
+
+
+<effect>
+	<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Draw"/> <!-- which menu under Extensions -->
+		</effects-menu>
+	</effect>
+  ...
+</inkscape-extension>
