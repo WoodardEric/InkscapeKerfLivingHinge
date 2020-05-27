@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-	<name>Living Hinge</name>
-	<id>org.inkscape.color.living_hinge</id>
-	
-<label indent="1" appearance="header" xml:space="preserve">
-Living Hinge
-</label>
+  <name>Living Hinge</name>
+  <id>org.inkscape.color.living_hinge</id>
 
-
-<effect>
+  <param name="unitType" type="optiongroup" appearance="combo" gui-text="Unit Type:">
+    <option translatable="no" value="px">px</option>
+	<option translatable="no" value="in">in</option>
+    <option translatable="no" value="mm">mm</option>
+	<option translatable="no" value="cm">cm</option>
+  </param>
+  <param name="LatticeCount" type="int" gui-text="Lattice Count:">5</param>
+  <effect needs-live-preview="false">
 	<object-type>all</object-type>
-		<effects-menu>
-			<submenu _name="Draw"/> <!-- which menu under Extensions -->
-		</effects-menu>
-	</effect>
+	<effects-menu>
+	  <submenu _name="Draw"/> <!-- which menu under Extensions -->
+	</effects-menu>
+  </effect>
   ...
 </inkscape-extension>
