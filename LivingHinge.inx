@@ -2,14 +2,25 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <name>Living Hinge</name>
   <id>org.inkscape.color.living_hinge</id>
-
-  <param name="unitType" type="optiongroup" appearance="combo" gui-text="Unit Type:">
-    <option translatable="no" value="px">px</option>
-	<option translatable="no" value="in">in</option>
-    <option translatable="no" value="mm">mm</option>
-	<option translatable="no" value="cm">cm</option>
-  </param>
-  <param name="LatticeCount" type="int" gui-text="Lattice Count:">5</param>
+  <param name="tab" type="notebook">
+    <page name="parameters" gui-text="Parameters">
+      <param name="unitType" type="enum" gui-text="Unit Type:"> 
+        <option translatable="no" value="px">px</option>
+	    <option translatable="no" value="in">in</option>
+		<option translatable="no" value="mm">mm</option>
+		<option translatable="no" value="cm">cm</option>
+	  </param>
+	  <param name="unitConversionToggle" type="boolean" gui-text="Auto Convert Units">false</param>
+      <param name="LatticeCount" type="int" gui-text="Lattice Count:">5</param>
+      <param name="LatticeWidth" type="float" gui-text="Lattice Width:">5</param>
+      <param name="CutLength" type="float" gui-text="Cut Length:">5</param>
+      <param name="GapLength" type="float" gui-text="Gap Length:">5</param>
+      <param name="HingeLength" type="float" gui-text="Hinge Length:">5</param>
+	</page>
+    <page name="info" gui-text="Info">
+    
+    </page>
+   </param>
   <effect needs-live-preview="false">
 	<object-type>all</object-type>
 	<effects-menu>
