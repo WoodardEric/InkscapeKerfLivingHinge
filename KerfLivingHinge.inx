@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-  <name>Living Hinge</name>
-  <id>org.inkscape.color.living_hinge</id>
+  <name>Kerf Living Hinge</name>
+  <id>org.inkscape.color.kerf_living_hinge</id>
   <param name="tab" type="notebook">
     <page name="parameters" gui-text="Parameters">
       <param name="unitType" type="enum" gui-text="Unit Type:"> 
