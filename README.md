@@ -1,2 +1,2 @@
-# InkscapeLivingHinge
-living hinge extenstion for Inkscape 1.0
+# InkscapeKerfLivingHinge
+kerf living hinge extenstion for Inkscape 1.0
